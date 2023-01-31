@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 07</title>
+</head>
+<body>
+<p>Créez une classe <code>Card</code>, qui représente une carte à jouer. Chaque carte a</p>
+<ul>
+    <li> une couleur (<code>Color</code>) parmi 4 (♠ pique (spades), ♥ cœur (hearts), ♦ carreau (diamonds) et ♣ trèfle
+        (clubs))
+    </li>
+    <li> une valeur (<code>Value</code>) parmi 13 (de 1 à 10, ainsi que le valet (jack), la dame (queen) et le roi
+        (king)).
+    </li>
+    <li> une méthode <code>toString</code> qui affiche la carte en français, comme «As de Pique» ou «3 de Cœur».</li>
+</ul>
+<p>Créez une classe <code>Deck</code>, qui représente un jeu de cartes complet. Il ne contient pas de Jokers.
+    La classe <code>Deck</code> présente</p>
+<ul>
+    <li> Un constructeur qui créera les 4 x 13 cartes du jeu de cartes.</li>
+    <li> Une méthode <code>shuffle</code> qui mélangera<sup>*</sup> les cartes du jeu.</li>
+</ul>
+<p>Ensuite, écrivez un programme qui crée un jeu de cartes, l’affiche (trié) puis le mélange et l’affiche à nouveau.</p>
+<p/>
+
+<p><i><sup>*</sup>Une manière de mélanger les cartes consiste à parcourir les cartes de 1 à 52, et à chaque fois
+    échanger la carte
+    courante avec une autre carte choisie aléatoirement dans le paquet.</i></p>
+<p><i>Pour générer un nombre aléatoire, utilisez la classe <code>java.util.Random</code> qui présente une méthode
+    <code>nextInt(int n)</code> qui retourne un nombre compris entre <code>0</code> (inclus) et <code>n</code>
+    (exclus).
+</i></p>
+
+</body>
+</html>

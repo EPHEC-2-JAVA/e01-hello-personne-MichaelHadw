@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 06</title>
+</head>
+<body>
+<p>Créez une classe <code>Temperature</code>, qui permettra de stocker une température et de l’exprimer aussi bien en
+    degrés Celsius que Fahrenheit. Utilisez une <code>enum</code> pour les unités (<code>TemperatureUnit</code>).</p>
+<p>Plus précisément, cette classe devra</p>
+<ul>
+    <li>Posséder un constructeur prenant en entrée la température et l’unité</li>
+    <li>Posséder une méthode getValue(TemperatureUnit) pour renvoyer la température dans l’unité voulue</li>
+    <li>Posséder une méthode setValue(TemperatureUnit) pour modifier la valeur de la température.</li>
+    <li>… et tous les éléments qui vous sembleront nécessaires</li>
+</ul>
+
+<p><b>Les formules</b></p>
+<table>
+    <tr>
+        <td>°C -> °F : f = c * 9 / 5 + 32</td>
+        <td>(10°C -> 50°F)</td>
+    </tr>
+    <tr>
+        <td>°F -> °C : c = (f – 32) * 5 / 9</td>
+        <td>(23°F -> -5°C)</td>
+    </tr>
+</table>
+<p><u>Note:</u> pour les conversions vous pourriez avoir un problème; si c'est le cas, réfléchissez au type des opérations.</p>
+
+</body>
+</html>
